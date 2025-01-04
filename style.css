@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 90px;
+    padding-top: 150px;
+}
+
+#left{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    /*background-color: red;*/
+}
+
+#left h1{
+    font-size: 130px;
+    font-weight: 550;
+    line-height: 100px;
+}
+
+#bottom-left{
+    width: 100%;
+    /*background-color: yellow;*/
+}
+
+#colors{
+    /*background-color: blue;*/
+    width: fit-content;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: solid 1px black;
+}
+
+#colors h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: mediumpurple;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: mediumaquamarine;
+    border-radius: 50%;
+}
+
+#bottom-left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#bottom-left p{
+    font-size: 20px;
+    width: 70%;
+    font-weight: 500;
+    color: #444;
+    line-height: 25px;
+}
+
+#right{
+    height: 90%;
+    width: 35%;
+    position: relative;
+    /*background-color: blue;*/
+}
+
+#right-top{
+    height: 50px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 30px;
+}
+
+#right-top h5{
+    font-size: 20px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#black-circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(3, 21, 75);
+    color: white;
+    border-radius: 50%;
+    right: -11%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-circle h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#rotated-text{
+    position: absolute;
+    left: -6%;
+    bottom: -35%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 20px;
+}
